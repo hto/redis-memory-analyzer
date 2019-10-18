@@ -8,8 +8,8 @@ Using Example Redis Commands
 SCAN 0 MATCH '*' COUNT 999999
 MEMORY USAGE users
 ```
-[Redis SCAN command](https://redis.io/commands/scan)
-[Redis MEMORY USAGE command](https://redis.io/commands/memory-usage)
+- [Redis SCAN command](https://redis.io/commands/scan)
+- [Redis MEMORY USAGE command](https://redis.io/commands/memory-usage)
 
 ## RunTime
 ```
@@ -44,7 +44,7 @@ $ ./redis-memory-analyzer -port=6390 -password=1234 -reportPath=analysis
 |Key|Count                        |Size  |
 |---|-----------------------------|------|
 |users:data:*|109270                       |832.476 MB|
-|users:products:id:*|1410800                      |784.237 MB|
+|users:products:pid:*|1410800                      |784.237 MB|
 |users:inbox:*|593842                       |761.199 MB|
 |users:energy:*|1176558                      |532.499 MB|
 |customer:bundle:*|1417628                      |511.679 MB|
