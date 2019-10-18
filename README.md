@@ -1,6 +1,7 @@
 # Redis / ElastiCache Memory Analyzer
 - Redis or Aws ElastiCache Redis Memory Analyzer.
 - Groups all keys with 'SCAN' by name. It then lists the dimensions it occupies in memory with the group prefixes that it determines. 
+- Export to csv.
 
 ## Warning
 Using Example Redis Commands
