@@ -1,8 +1,0 @@
-Key,Count,Size,NeverExpire,AvgTtl(excluded never expire)
-q:*,3,6.000 Bytes,3,0
-q:q:*,1,5.000 Bytes,1,0
-aaa,1,2.000 Bytes,1,0
-q,1,2.000 Bytes,1,0
-a:*,1,2.000 Bytes,1,0
-aa,1,2.000 Bytes,1,0
-qq:*,1,2.000 Bytes,1,0
