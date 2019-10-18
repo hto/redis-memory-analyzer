@@ -18,7 +18,10 @@ func main() {
 
 	flag.Parse()
 
+	// ElastiCache Endpoint
 	Connection(*host, *port, *password)
+
+	// sorted by key priority
 	Start([]string{":", "_"})
 
 	// //Find the csv file in default target folder: ./reports
